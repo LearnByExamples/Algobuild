@@ -1,7 +1,6 @@
 # Algobuild
 Esempi di flowchart
 
-
 area_rettangolo.bfc    - Calcolo dell'area del rettangolo dati base e altezza
 area_rettangolo2.bfc   - Come area_rettangolo con controllo lati non negativi
 distanza2punti.bfc     - Calcola la distanza tra due punti
