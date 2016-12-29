@@ -1,0 +1,11 @@
+PROG dist2p
+	OUT "distanza 2 punti"
+	IN x1
+	IN y1
+	IN x2
+	IN y2
+	ASSIGN dx=x2-x1
+	ASSIGN dy=y2-y1
+	ASSIGN dist=sqrt(dx*dx+dy*dy)
+	OUT dist
+END PROG //dist2p

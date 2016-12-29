@@ -1,0 +1,26 @@
+PROG main
+	DO_WHILE //n<1
+		OUT "Quanti valori?"
+		IN n
+	END DO_WHILE n<1
+	OUT "Inserisce valori in array"
+	FOR i=0; i<n; i=i+1
+		ASSIGN a[ i ]=round(1000*random())/100
+	END FOR //i=0; i<n; i=i+1
+	OUT "Mostra valori in array"
+	FOR i=0; i<n; i=i+1
+		OUT a[i]
+	END FOR //i=0; i<n; i=i+1
+	OUT "Trova il massimo"
+	ASSIGN pos=0
+	FOR i=1; i<n; i=i+1
+		IF a[i]>a[pos]
+			ASSIGN pos=i
+		ELSE //if a[i]>a[pos]
+		END IF //a[i]>a[pos]
+	END FOR //i=1; i<n; i=i+1
+	OUT "Massimo trovato:"
+	OUT a[pos]
+	OUT "alla posizione:"
+	OUT pos
+END PROG //main

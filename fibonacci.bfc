@@ -1,0 +1,13 @@
+PROG main
+	OUT "num. Fibonacci"
+	ASSIGN n1=1
+	ASSIGN nf=1
+	OUT "quanti numeri?"
+	IN n
+	FOR i=0; i<n; i=i+1
+		OUT nf
+		ASSIGN t=n1
+		ASSIGN n1=nf
+		ASSIGN nf=t+nf
+	END FOR //i=0; i<n; i=i+1
+END PROG //main

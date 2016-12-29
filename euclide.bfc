@@ -1,0 +1,20 @@
+PROG main
+	OUT "MCD Euclide"
+	DO_WHILE //a<=0 || b<=0
+		IN a
+		IN b
+	END DO_WHILE a<=0 || b<=0
+	IF a<b
+		ASSIGN t=a
+		ASSIGN a=b
+		ASSIGN b=t
+	ELSE //if a<b
+	END IF //a<b
+	WHILE b>0
+		ASSIGN t=a%b
+		ASSIGN a=b
+		ASSIGN b=t
+	END WHILE //b>0
+	ASSIGN mcd=a
+	OUT mcd
+END PROG //main

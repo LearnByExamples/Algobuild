@@ -1,0 +1,3 @@
+PROG main
+	OUT "Hello World!"
+END PROG //main

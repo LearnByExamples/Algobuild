@@ -1,0 +1,11 @@
+PROG main
+	OUT "area del rettangolo"
+	DO_WHILE //base<0
+		IN base
+	END DO_WHILE base<0
+	DO_WHILE //altezza<0
+		IN altezza
+	END DO_WHILE altezza<0
+	ASSIGN area=base*altezza
+	OUT area
+END PROG //main

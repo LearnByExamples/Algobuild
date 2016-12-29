@@ -1,0 +1,10 @@
+PROG main
+	OUT "Inserisce valori in array"
+	FOR i=0; i<10; i=i+1
+		ASSIGN a[ i ]=2*i
+	END FOR //i=0; i<10; i=i+1
+	OUT "Mostra valori in array"
+	FOR i=0; i<10; i=i+1
+		OUT a[i]
+	END FOR //i=0; i<10; i=i+1
+END PROG //main

@@ -1,0 +1,10 @@
+PROG main
+	OUT "Inserisce valori in array"
+	FOR i=0; i<3; i=i+1
+		IN a[i]
+	END FOR //i=0; i<3; i=i+1
+	OUT "Mostra valori in array"
+	FOR i=0; i<3; i=i+1
+		OUT a[i]
+	END FOR //i=0; i<3; i=i+1
+END PROG //main

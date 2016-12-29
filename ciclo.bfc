@@ -1,0 +1,8 @@
+PROG main
+	IN n
+	ASSIGN i=1
+	WHILE i<n
+		ASSIGN i=i+1
+		OUT i
+	END WHILE //i<n
+END PROG //main

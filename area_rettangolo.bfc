@@ -1,0 +1,7 @@
+PROG main
+	OUT "area del rettangolo"
+	IN base
+	IN altezza
+	ASSIGN area=base*altezza
+	OUT area
+END PROG //main

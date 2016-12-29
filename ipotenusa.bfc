@@ -1,0 +1,7 @@
+PROG main
+	OUT "calcolo ipotenusa"
+	IN c1
+	IN c2
+	ASSIGN ipo=sqrt(c1*c1+c2*c2)
+	OUT ipo
+END PROG //main

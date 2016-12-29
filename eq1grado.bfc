@@ -1,0 +1,16 @@
+PROG main
+	OUT "equazione ax+b=0"
+	IN a
+	IN b
+	IF a==0
+		IF b==0
+			OUT "indeterminata"
+		ELSE //if b==0
+			OUT "impossibile"
+		END IF //b==0
+	ELSE //if a==0
+		ASSIGN x=-b/a
+		OUT "soluzione"
+		OUT x
+	END IF //a==0
+END PROG //main
